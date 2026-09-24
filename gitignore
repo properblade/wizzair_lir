@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+build_venv/
+*.pdf
+!assets/templates/*.pdf
+.DS_Store

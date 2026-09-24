@@ -1,0 +1,7 @@
+{
+  "_comment": "Maps the ICAO operator/AOC code seen in the flight schedule's flight-number prefix (e.g. 'WMT 3131') to the IATA carrier code that should be printed on the LIR instead (e.g. 'W4 3131'). Wizz Air operates several AOCs with different ICAO codes that all still fly under recognizable IATA codes.",
+  "WZZ": "W6",
+  "WMT": "W4",
+  "WUK": "W9",
+  "WAZ": "5W"
+}

@@ -1,0 +1,15 @@
+{
+  "_comment": "Maps 3-letter airport codes (as they appear in the DEP/DES columns of a flight schedule) to IANA timezone names, used to convert the schedule's UTC STD into the local STD (LT) printed on the LIR. This list covers the stations seen so far; extend it as new routes appear. If a flight's departure airport is missing from this table, generate_lir.py will NOT guess -- it falls back to the UTC time and flags the flight in its warnings so a human can add the mapping.",
+
+  "BGY": "Europe/Rome",
+  "BBU": "Europe/Bucharest",
+  "IAS": "Europe/Bucharest",
+  "CLJ": "Europe/Bucharest",
+  "CRA": "Europe/Bucharest",
+  "SCV": "Europe/Bucharest",
+  "TSR": "Europe/Bucharest",
+  "SOF": "Europe/Sofia",
+  "WAW": "Europe/Warsaw",
+  "TIA": "Europe/Tirane",
+  "BEG": "Europe/Belgrade"
+}
